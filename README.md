@@ -16,11 +16,15 @@
 
 [Licence](#license)
 
+ 
+
 ### **Project name**:
 
 Code Institute - Stream 2 Final Project. “Avengers Data Dashboard”
 
 [Back to Table Of Contents](#table-of-contents)
+
+ 
 
 ### **Description**:
 
@@ -38,6 +42,8 @@ Here is a link for the data I used in my project - CSV Data source:
 https://github.com/fivethirtyeight/data/tree/master/avengers
 
 [Back to Table Of Contents](#table-of-contents)
+
+ 
 
 ### **Testing:**
 
@@ -66,6 +72,8 @@ managed to solve this by changing the div element the step was set up in and now
 it seems to work fine.
 
 [Back to Table Of Contents](#table-of-contents)
+
+ 
 
 ### **Installation**:
 
@@ -132,12 +140,16 @@ For virtualenv to install all files in the requirements.txt file.
 
 [Back to Table Of Contents](#table-of-contents)
 
+ 
+
 ### **Usage**:
 
 Click the start tour button in the sites navigation for a full tour on each
 element and what you can do with it.
 
 [Back to Table Of Contents](#table-of-contents)
+
+ 
 
 ### **Contributing**:
 
@@ -146,6 +158,8 @@ source:](https://github.com/fivethirtyeight/data/tree/master/avengers)
 
 [Back to Table Of Contents](#table-of-contents)
 
+ 
+
 ### **Credits**:
 
 Code Institute
@@ -153,6 +167,8 @@ Code Institute
 Andrew Flowers (CSV data)
 
 [Back to Table Of Contents](#table-of-contents)
+
+ 
 
 ### **License**:
 
