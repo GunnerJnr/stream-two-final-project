@@ -144,6 +144,8 @@ For virtualenv to install all files in the requirements.txt file.
 
 ### **Usage**:
 
+[KeenDashboard](#https://github.com/keen/dashboards)
+
 Click the start tour button in the sites navigation for a full tour on each
 element and what you can do with it.
 
