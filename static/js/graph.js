@@ -91,11 +91,6 @@ function makeGraphs(error, avengersJson) {
         .height(300)
         .dimension(nameDim)
         .group(nameGroup);
-    dc.selectMenu('#url-menu-select')
-        .width(600)
-        .height(300)
-        .dimension(webLinkDim)
-        .group(webLinkGroup);
 
     // Row Chart Gender
     genderChart
