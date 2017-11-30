@@ -43,9 +43,7 @@ var createTableData = function (data, columns) {
         })
         .enter()
         .append('td')
-        .filter(function(d) {
-            return d.nameDim;
-        });
+        .filter(nameDim);
 
     // return the data-table
     return table;
