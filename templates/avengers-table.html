@@ -1,5 +1,15 @@
 {% extends "layout.html" %}
 
+<!-- CSS Linking Begin -->
+{% block css_linking %}
+    <link rel="stylesheet" href="{{ url_for ('static', filename='lib/css/keen-dashboards.css') }}">
+    <link rel="stylesheet" href="{{ url_for ('static', filename='lib/css/dc.css') }}">
+    <link rel="stylesheet" href="{{ url_for ('static', filename='lib/css/introjs.css') }}">
+    <link rel="stylesheet" href="{{ url_for ('static', filename='css/tour-button.css') }}">
+    <link rel="stylesheet" href="{{ url_for ('static', filename='css/custom.css') }}">
+{% endblock %}
+<!-- CSS Linking End -->
+
 <!-- Content Begin -->
 {% block content %}
 <div class="row-fluid">
@@ -24,5 +34,12 @@
 <!-- JS linking -->
 {% block js_linking %}
     <script src="{{ url_for ('static', filename='js/url_table_data.js') }}"></script>
+    <script src="{{ url_for ('static', filename='lib/js/crossfilter.js') }}"></script>
+    <script src="{{ url_for ('static', filename='lib/js/d3.js') }}"></script>
+    <script src="{{ url_for ('static', filename='lib/js/dc.js') }}"></script>
+    <script src="{{ url_for ('static', filename='lib/js/queue.js') }}"></script>
+    <script src="{{ url_for ('static', filename='lib/js/intro.js') }}"></script>
+    <script src="{{ url_for ('static', filename='js/random_image_loader.js') }}"></script>
+    <script src="{{ url_for ('static', filename='js/site_introduction.js') }}"></script>
 {% endblock %}
 <!-- JS linking end -->
