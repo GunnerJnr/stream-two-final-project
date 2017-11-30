@@ -7,17 +7,6 @@
 // and will display the csv data but in its converted format of JSON
 var createTableData = function (data, columns) {
 
-    // Clean projectsJson data
-    var avengersProjects = avengersJson;
-
-    // Create a Crossfilter instance for our project
-    var ndx = crossfilter(avengersProjects);
-
-    // Define all the dimensions we intend to use to display the data
-    var nameDim = ndx.dimension(function (d) {
-        return d["Name"];
-    });
-
     // Create some variables for use to store and create our data table
     var table = d3.selectAll('#table-data')
         .append('table')
@@ -50,7 +39,6 @@ var createTableData = function (data, columns) {
         })
         .enter()
         .append('td')
-        .filter(nameDim)
         .text(function (d) {
             return d.value
         });

@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+<!-- Content Begin -->
+{% block content %}
+<div class="row-fluid">
+    <!-- Table Data Begin -->
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="chart-wrapper text-center">
+            <div class="chart-title">
+                URL Table
+            </div>
+            <div class="chart-stage">
+                <div class="table-wrapper">
+                    <div id="table-data"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Table Data End -->
+{% endblock %}
+<!-- content end -->
+
+<!-- JS linking -->
+{% block js_linking %}
+    <script src="{{ url_for ('static', filename='js/url_table_data.js') }}"></script>
+{% endblock %}
+<!-- JS linking end -->
