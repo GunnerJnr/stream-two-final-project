@@ -51,4 +51,8 @@ var createTableData = function (data, columns) {
 d3.json('avengers/avengers_project', function (data) {
     var columns = ['Name', 'Current', 'Appearances', 'Gender', 'Year'];
     createTableData(data, columns);
+
+    // Hide the loading screen and display the data dashboard
+    $('#loading').hide();
+    $('#loading-screen').hide();
 });
