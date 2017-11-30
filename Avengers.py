@@ -21,6 +21,14 @@ def dashboard():
     """
     return render_template("index.html")
 
+@app.route('/avengers-table')
+def table():
+    """
+
+    :return:
+    """
+    return render_template("avengers-table.html")
+
 
 # routing to the database info
 @app.route("/avengers/avengers_project")
