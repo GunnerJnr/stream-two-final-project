@@ -7,6 +7,12 @@
 // and will display the csv data but in its converted format of JSON
 var createTableData = function (data, columns) {
 
+    // Clean projectsJson data
+    var avengersProjects = avengersJson;
+
+    // Create a Crossfilter instance for our project
+    var ndx = crossfilter(avengersProjects);
+
     // Define all the dimensions we intend to use to display the data
     var nameDim = ndx.dimension(function (d) {
         return d["Name"];
