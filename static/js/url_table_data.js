@@ -3,6 +3,10 @@
  * Purpose: To load a data table and display the converted CSV - JSON Data.
  **/
 
+ // Hide the loading screen and display the data dashboard
+ $('#loading').hide();
+ $('#loading-screen').hide();
+
 // This function will be responsible for the creation of the table,
 // and will display the csv data but in its converted format of JSON
 var createTableData = function (data, columns) {
@@ -45,10 +49,6 @@ var createTableData = function (data, columns) {
 
     // return the data-table
     return table;
-
-    // Hide the loading screen and display the data dashboard
-    $('#loading').hide();
-    $('#loading-screen').hide();
 };
 
 // We call the function to create the table here as well as set which elements of the JSOn file we wish to insert into the table
