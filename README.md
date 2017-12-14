@@ -16,11 +16,15 @@
 
 [Licence](#license)
 
+---
+
 ## Project name
 
 Code Institute - Stream 2 Final Project. “Avengers Data Dashboard”
 
 [Back to Table Of Contents](#table-of-contents)
+
+---
 
 ## Description
 
@@ -38,6 +42,8 @@ Here is a link for the data I used in my project - CSV Data source:
 <https://github.com/fivethirtyeight/data/tree/master/avengers>
 
 [Back to Table Of Contents](#table-of-contents)
+
+---
 
 ## Testing
 
@@ -68,6 +74,8 @@ it seems to work fine.
 I unfortunately ran in to problems with `D3/DC.js` I was hoping to get my bar charts and graphs linked up to the table so that it would filter with the other data. Unfortunately due to time constraints I will not be able to have that feauture right now so I have for now moved the table into its own html page, although that currently now contains a bug where if you run the `intro.js` site introduction it will display as if it was on the dashboard, really the functionality should be removed but I do not have time, so I am documenting the bug. I also wanted to make the charts and graphs responsive theirself, instead of just the container being responsive. I thought the keen dashboard might of helped with this but unfortunately it did not.
 
 [Back to Table Of Contents](#table-of-contents)
+
+---
 
 ## Installation
 
@@ -133,12 +141,16 @@ element and what you can do with it.
 
 [Back to Table Of Contents](#table-of-contents)
 
+---
+
 ## Contributing
 
 Here is a link for the data I used in my project - [CSV Data
 source:](https://github.com/fivethirtyeight/data/tree/master/avengers)
 
 [Back to Table Of Contents](#table-of-contents)
+
+---
 
 ## Credits
 
@@ -148,31 +160,4 @@ Andrew Flowers (CSV data)
 
 [Back to Table Of Contents](#table-of-contents)
 
-## License
-
-MIT License
-
-Copyright (c) [year] [fullname]
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-If you would like more information on choosing a license, check out
-GitHub’s [licensing guide](http://choosealicense.com/)!
-
-[Back to Table Of Contents](#table-of-contents)
+---
