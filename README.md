@@ -14,8 +14,6 @@
 
 [Credits](#credits)
 
-[Licence](#license)
-
 ---
 
 ## Project name
