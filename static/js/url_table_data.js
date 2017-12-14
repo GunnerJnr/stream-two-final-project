@@ -1,5 +1,5 @@
 /**
- * Modified from source: https://gist.github.com/jfreels/6814721
+ * Inspired by source: https://gist.github.com/jfreels/6814721
  * Purpose: To load a data table and display the converted CSV - JSON Data.
  **/
 
