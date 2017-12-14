@@ -1,3 +1,7 @@
+# DOCUMENTATION FOR STREAM 2 FINAL PROJECT - DATA DASHBOARD
+
+---
+
 # Table of Contents
 
 [Project Name](#project-name)
