@@ -65,6 +65,8 @@ first tooltip no matter where positioned seem to always render off screen, I
 managed to solve this by changing the div element the step was set up in and now
 it seems to work fine.
 
+I unfortunately ran in to problems with `D3/DC.js` I was hoping to get my bar charts and graphs linked up to the table so that it would filter with the other data. Unfortunately due to time constraints I will not be able to have that feauture right now so I have for now moved the table into its own html page, although that currently now contains a bug where if you run the `intro.js` site introduction it will display as if it was on the dashboard, really the functionality should be removed but I do not have time, so I am documenting the bug. I also wanted to make the charts and graphs responsive theirself, instead of just the container being responsive. I thought the keen dashboard might of helped with this but unfortunately it did not.
+
 [Back to Table Of Contents](#table-of-contents)
 
 ## Installation
