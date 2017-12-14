@@ -132,6 +132,8 @@ For virtualenv to install all files in the requirements.txt file.
 
 [Back to Table Of Contents](#table-of-contents)
 
+---
+
 ## Usage
 
 [KeenDashboard](#https://github.com/keen/dashboards)
